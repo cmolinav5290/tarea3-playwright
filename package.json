@@ -1,0 +1,14 @@
+{
+  "name": "tarea3-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "tarea3": "npx playwright test tests/tarea3 --project=chromium --reporter=html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.36.0",
+    "typescript": "^5.5.0",
+    "@faker-js/faker": "^8.0.2"
+  }
+}
