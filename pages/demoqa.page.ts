@@ -10,10 +10,10 @@ export class DemoQAPage extends BasePage {
   }
 
   public async openAlertsSection() {
-    // seleccionar el card Alerts, Frame & Windows
+  // seleccionar el card Alerts, Frame & Windows
     await this.page.locator('div.card-body h5:has-text("Alerts, Frame & Windows")').first().click();
-    // click en el menu lateral "Alerts"
-    await this.page.locator('li:has-text("Alerts").first().click();
+  // click en el menu lateral "Alerts"
+    await this.page.locator('li:has-text("Alerts")').first().click();
   }
 
   public async clickAlertButton() {
